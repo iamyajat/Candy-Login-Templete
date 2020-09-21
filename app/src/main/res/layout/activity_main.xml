@@ -26,7 +26,7 @@
                 android:gravity="center"
                 android:paddingTop="10dp"
                 android:paddingBottom="5dp"
-                android:text="LOGIN"
+                android:text="@string/login"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold"
@@ -37,14 +37,14 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:hint="Username"
+                android:hint="@string/username"
                 android:padding="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-@."
-                    android:inputType="textFilter|textVisiblePassword|textNoSuggestions"/>
+                    android:inputType="textFilter|textVisiblePassword|textNoSuggestions" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -53,13 +53,13 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:padding="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,7 +70,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:text="NEXT" />
+                android:text="@string/next" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -79,8 +79,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="10dp"
-        android:text="New User? Sign up."
+        android:padding="15dp"
+        android:text="@string/sign_up"
         android:textColor="#FFFFFF" />
 
 </LinearLayout>
