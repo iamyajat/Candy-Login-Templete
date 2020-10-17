@@ -1,4 +1,4 @@
-# Cute Login Page Templete
+# Candy Login Page Templete
 A minimal and cute login page templete.
 
 ## Screenshot
